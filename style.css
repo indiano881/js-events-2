@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    min-height: 200vh;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+}
+
+#mouse-area {
+    border: 2px solid black;
+    padding: 30px;
+    width: 200px;
+}
+
+.active {
+    background-color: yellow;
+    color: red;
+    border: 2px solid red;
+}
+
+.hidden {
+    display: none;
+}
